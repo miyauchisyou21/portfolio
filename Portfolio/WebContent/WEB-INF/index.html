@@ -1,0 +1,228 @@
+<link rel="stylesheet" href="./../css/index.css">
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+     <!-- ナビゲーションメニュー -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-dark" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-link text-dark" href="#skill">Skill</a>
+                <a class="nav-link text-dark" href="#works">Works</a>
+                <a class="nav-link text-dark" href="#study">Study</a>
+                <a class="nav-link text-dark" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- スライダー -->
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/sample1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/sample2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/sample3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="container py-4" id="skill">
+<h2>Skill</h2>
+<div class="row row-cols-1 row-cols-md-5 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="img/html.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML</h5>
+        <p class="card-text">基本的なコーディングは一通りこなせます。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/css.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS</h5>
+        <p class="card-text">基本的な操作は一通りできます。今回フレームワークはBootStrapを使用しました。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/java.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Java</h5>
+        <p class="card-text">servlet/jsp、直近ではSpringFrameWorkなど使用しました。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/mysql.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MySQL</h5>
+        <p class="card-text">CURD、結合などテーブルの基本的な操作は行えます。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/github.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Git/GitHub </h5>
+        <p class="card-text">Gitのワークツリーの理解、GitHubへのPushなど基本的な操作はできます。</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    <!-- カード -->
+    <div class="container py-4" id="works">
+        <h2>Works</h2>
+        <p>作成したアプリケーションです</p>
+        <div class="card-deck">
+            <div class="card">
+             <div class="Work_slide" id="makeImg">
+				  <img src="img/BBS1.png"   alt="トップ">
+				  <img src="img/BBS2.png"    alt="ログイン画面">
+				   <img src="img/BBS3.png"    alt="アカウント情報">
+				  <img src="img/BBS4.png"    alt="掲示板本体">
+				  <img src="img/BBS5.png"    alt="掲示板内検索時">
+			</div>
+              <div class="card-body">
+                <h5 class="card-title">アカウント認証付きの掲示板です</h5>
+                <p class="card-text">JSP/CSS/Servlet/MySqlを使用し作成しました</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/sample4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Work2</h5>
+                <p class="card-text">This is sample description.This is sample description.This is sample description.This is sample description.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/sample4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Work3</h5>
+                <p class="card-text">This is sample description.This is sample description.This is sample description.This is sample description.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container py-4" id="study">
+    <h2 class="study">Study</h2>
+    <p class=study_p>学習に使用した教材です</p>
+    <h3>学習サービス</h3>
+    <ul class="list-group">
+	  <li class="list-group-item"><a href="https://paiza.jp/">Paiza</a></li>
+	  <li class="list-group-item"><a href="https://dotinstall.com/">ドットインストール</a></li>
+	  <li class="list-group-item"><a href="https://prog-8.com/">progate</a></li>
+	</ul>
+	<h3>Udemy</h3>
+    <ul class="list-group">
+	  <li class="list-group-item"><a href="https://www.udemy.com/course/java_spring_beginner/">Spring 入門 ～ SpringBoot 2 を使ってお問い合わせアプリとToDoアプリを作る ～</a></li>
+	  <li class="list-group-item"><a href="https://www.udemy.com/course/2021gitgithubvscode/">Git・GitHub入門:GitとGitHubを基礎から完全マスター【2021最新版】</a></li>
+	</ul>
+	<h3>書籍</h3>
+    <ul class="list-group">
+	  <li class="list-group-item"><a href="https://sukkiri.jp/books/sukkiri_java3">スッキリわかるJava入門 第3版</a></li>
+	  <li class="list-group-item"><a href="https://sukkiri.jp/books/sukkiri_javap3">スッキリわかるJava入門 実践編 第3版</a></li>
+	  <li class="list-group-item"><a href="https://sukkiri.jp/books/sukkiri_servlet2">スッキリわかるサーブレット&JSP入門 第2版</a></li>
+	</ul>
+</div>
+    <!-- 問合せフォーム -->
+<div class="Form" id="contact">
+<div id="formWrapper">
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScpeK7O2x2aaoR6mr1ICZsub1DxX5ooXTqznjcDIOg3PHOSQg/formResponse"
+    method="post" name="myForm" target="dummyIframe" id="form">
+    <h2 style="text-align:center">Contact</h2>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
+    <input type="text" name="entry.1508168168" class="Form-Item-Input" placeholder="例）山田太郎" required>
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+    <input type="email" name="entry.1111604164" class="Form-Item-Input" placeholder="例）example@gmail.com" required>
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label isMsg">お問い合わせ内容</p>
+    <textarea name="entry.949226727" class="Form-Item-Textarea"></textarea>
+  </div>
+  <input class="Form-Btn" type="button" value="送信する" onclick="submitForm()"/>
+  </form>
+  <iframe name="dummyIframe" style="display:none;"></iframe>
+  </div>
+</div>
+<div id="thxMessage" style="display:none;text-align:center " ><p>お問い合わせありがとうございました。</p></div>
+<script>
+  function submitForm(){
+	  var val=document.getElementsByName("entry.1508168168")[0];
+	  if (val.value.length == 0) {
+	    alert("お名前は必須項目です");
+	    val.focus();
+	    return;
+	    }
+	  var val=document.getElementsByName("entry.1111604164")[0];
+	  if (val.value.length == 0) {
+	    alert("メールアドレスは必須項目です");
+	    val.focus();
+	    return;
+	    }
+    document.myForm.submit();
+    document.getElementById('formWrapper').style.display = 'none';
+    document.getElementById('thxMessage').style.display = 'block';
+  }
+</script>
+
+   <!-- フッター -->
+    <footer class="text-center bg-dark text-white">
+        <p class="py-3">Portfolio</p>
+    </footer>
+  </body>
+</html>
