@@ -157,7 +157,7 @@
                     /* 画像のサイズに合わせて変更ください */
   width      : 100%;
   height     : 400px;
-  margin     : auto;      /* サンプルは中央寄せの背景：白 */
+  margin     : auto;
   background : #fff;
 }
 
@@ -168,26 +168,56 @@
   width      : inherit;
   height     : inherit;
   left       : -100%;
-  animation  : slideAnime 20s ease infinite;
+  animation  : slideAnime 35s ease infinite;
 }
 
 .Work_slide img:nth-of-type(1) { animation-delay: 0s }
-.Work_slide img:nth-of-type(2) { animation-delay: 4s }
-.Work_slide img:nth-of-type(3) { animation-delay: 8s }
-.Work_slide img:nth-of-type(4) { animation-delay: 12s }
-.Work_slide img:nth-of-type(5) { animation-delay: 16s }
+.Work_slide img:nth-of-type(2) { animation-delay: 7s }
+.Work_slide img:nth-of-type(3) { animation-delay: 14s }
+.Work_slide img:nth-of-type(4) { animation-delay: 21s }
+.Work_slide img:nth-of-type(5) { animation-delay: 28s }
 
 @keyframes slideAnime{
    0% { left: -100% }
-   2% { left: 0     }
-  18% { left: 0     }
-  20% { left: 100%  }
+   1% { left: 0     }
+  24% { left: 0     }
+  25% { left: 100%  }
  100% { left: 100%  }
 }
 .container py-4{
 	width:80%;
 }
-.study_p{
-	padding-bottom:1%;
+
+.card-img-top-3{
+  width      : 100%;
+  height     : 400px;
 }
+
+.Work_slide2 {
+  position   : relative;
+  overflow   : hidden;
+                    /* 画像のサイズに合わせて変更ください */
+  width      : 100%;
+  height     : 400px;
+  margin     : auto;
+  background : #fff;
+}
+
+.Work_slide2 img {
+   display    : block;
+  position   : absolute;
+                      /* 画像のサイズを表示エリアに合せる */
+  width      : inherit;
+  height     : inherit;
+  left       : -100%;
+  animation  : slideAnime 28s ease infinite;
+}
+
+.Work_slide2 img:nth-of-type(1) { animation-delay: 0s }
+.Work_slide2 img:nth-of-type(2) { animation-delay: 7s }
+.Work_slide2 img:nth-of-type(3) { animation-delay: 14s }
+.Work_slide2 img:nth-of-type(4) { animation-delay: 21s }
+
+
+
 
